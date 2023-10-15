@@ -1,0 +1,37 @@
+
+header {
+
+    background-image: url('../assets/background_header.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 500px;
+
+    h1 {
+        color: $primaryHeadColor;
+        font-size: 50px;
+    }
+
+    p {
+        color: $primaryHeadColor;
+        font-size: 40px;
+    }
+
+    button {
+
+        background-color: $primaryBtn;
+        color: $primaryBtnText;
+        border: 0px;
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        ;
+
+    }
+}

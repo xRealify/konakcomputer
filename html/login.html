@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">KONAK COMPUTER</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="producten.html">Producten</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="login-container">
+        <form id="login-form" class="styled-login-form">
+          <h2>Login</h2>
+          <input type="text" id="username" placeholder="Username" class="styled-input">
+          <input type="password" id="password" placeholder="Password" class="styled-input">
+          <button type="submit" class="styled-button">Login</button>
+          <p id="forgot-password" class="styled-forgot-password">Forgot your password?</p>
+        </form>
+      </div>
+    
+      <div id="popup" class="popup-hidden styled-popup">
+        <div class="popup-content styled-popup-content">
+          <span class="close styled-close">&times;</span>
+          <h3>Reset Password</h3>
+          <input type="email" id="email" placeholder="Enter your email" class="styled-input">
+          <button id="submit-email" class="styled-button">Submit</button>
+          <p id="reset-info" class="styled-reset-info"></p>
+        </div>
+      </div>
+
+      <div class="footer">
+          <div class="vat">
+            <p>BTW Nummer: BE0800.598.606</p>
+          </div>
+          <div class="email">
+            <p>Email: info@konakit.be</p>
+          </div>
+          <div class="phone">
+            <p>Contactnummer: +32 456 64 61 00</p>
+          </div>
+          <div class="address">
+            <p>Adres: Nieuwstraat 15, 3581 Beringen</p>
+          </div>
+        </div>
+      
+
+        <script src="../script.js"></script>
+</body>
+</html>

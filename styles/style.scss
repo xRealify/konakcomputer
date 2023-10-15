@@ -1,0 +1,30 @@
+$primaryBtn : rgb(54, 54, 228);
+$primaryBtnText : white;
+
+$backgroundColorBody : #c9c9c9;
+
+$primaryHeadColor : #ddd7d7;
+
+$navBackgroundColor : #080404;
+$navTextColor : rgb(214, 214, 214);
+$navHoverColor : rgb(105, 105, 105);
+
+$pCardtext : #b6b6b6;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+@import './header';
+@import './navbar';
+@import './footer';
+@import './home';
+@import './producten';
+@import './product';
+@import './login';
+
+
+* {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}

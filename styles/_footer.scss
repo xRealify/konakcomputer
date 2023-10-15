@@ -1,0 +1,21 @@
+
+.footer {
+
+    background-color: $navBackgroundColor;
+    color: $navTextColor;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+
+    .vat,
+    .email,
+    .phone,
+    .address {
+        flex: 1;
+        text-align: center;
+    }
+}
